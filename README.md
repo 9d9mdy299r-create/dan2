@@ -21,7 +21,8 @@ fixing the seconds component of the clock
 
 initially I was confused at why the seconds part of the clock was not not changing.
 it would only update when you exit and re enter the app and it was not changing constantly.
-I realised that the  whole window would have to be updated after a some time. A very small time for the seconds component.Then i found out about the `window.after()
+I realised that the  whole window would have to be updated after a some time. A very small time for the seconds component.Then i found out about the window.after() command . i tried 10 milliseconds initially with the function "update".I kept on adding zeros till thousand an just stopped.
+
 
 
 
