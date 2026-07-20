@@ -16,6 +16,7 @@ def update():
     window.after(1000,update)
 
 window= Tk()
+window.title("Alvarro's simple clock")
 time_label = Label(window,font=("Arial",50),bg="black")
 time_label.pack()
 
