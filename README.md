@@ -1,28 +1,20 @@
-# Simple Clock and Date App
-> Project name:clock_app.py
->>This is a simple python program which displays the current time and date.
----
-#  Installation
-There was supposed to be a .exe file available alongside the code that could be downloaded directly.but Unfortunately this app can only be acessed using a code editor.
-#### step 1
-Download the raw code file (ie.clock_app.py)
-#### step 2
-Open with any code editor (.eg vs code)
-#### step 3
-Run the code
+ # Date and Time App
+ A simple Python application that displays the current date and time.
 
-This will open the tk window displaying the latest date and time.
+ ## Requirements
+ - [uv]
+   (https://docs.astral.sh/uv/getting-started/installation/) installed on your machine
 
-This app is very basic and is **not** interactive. It is mainly centred on the importation of modules in python.The tkinter module was for the window of the application and the time module was used to fetch the time and the date.
+   ## Running the App
 
-# Problems
-fixing the seconds component of the clock
+   1. Clone the repository :
+      ```bash
+      git clone
+      https://github.com/Diogoalvarro/dan2.git
+      cd dan2
+   2. Run the app using uv:
+      ```bash
+      uv run clock_app.py
 
-
-initially I was confused at why the seconds part of the clock was not not changing.
-it would only update when you exit and re enter the app and it was not changing constantly.
-I realised that the  whole window would have to be updated after a some time. A very small time for the seconds component.Then i found out about the window.after() command . i tried 10 milliseconds initially with the function "update".Then i realized that thousand milliseconds make a second. So then i finaly fixed it to window.after(1000,update)
-
-
-
-
+   ## Preview
+   <img width="1440" height="900" alt="Screenshot 2026-07-22 at 9 11 35 AM" src="https://github.com/user-attachments/assets/9201d747-3e3f-42be-81aa-29cc9abb0009" />
