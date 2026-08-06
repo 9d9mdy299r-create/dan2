@@ -1,27 +1,23 @@
-# Simple Clock and Date App
-> Project name:clock_app.py
->>This is a simple python program which displays the current time and date.
----
-#  Installation
-There was supposed to be a .exe file available alongside the code that could be downloaded directly.but Unfortunately this app can only be acessed using a code editor.
-#### step 1
-Download the raw code file (ie.clock_app.py)
-#### step 2
-Open with any code editor (.eg vs code)
-#### step 3
-Run the code
+# REQUIREMENTS FOR SIMPLE BUDGET TRACKER APP
 
-This will open the tk window displaying the latest date and time.
-
-This app is very basic and is **not** interactive. It is mainly centred on the importation of modules in python.The tkinter module was for the window of the application and the time module was used to fetch the time and the date.
-
-# Problems
-fixing the seconds component of the clock
+### Why am i building this?
+- [This app mainly targets university students. It is an app purposely made to check spending. Many university students fail to plan how they use their money and this app solves just that]
+### What would the app do?
+- [It would ask you for how much you want to spend. Then you will input the amount and items you'd like to get(the amount must be in the budget range)]
+### What kind of app is it?
+- [since the app tracks the users spending it would be created using Tkinter for a desktop GUI]
+### What features do i hope to create
+- [The app should be able to recieve the users total amount to budget]
+- [It should be able to 
+accept the items in the budget list and their respective price]
+- [It should let the user know when the budget limit has been reached]
+- [Users should be able to create and complete budgets]
+- [After each budget, you recieve a summary of how the money was spent]
+ 
+ #### For simplicity it will be a single user app
 
 
-initially I was confused at why the seconds part of the clock was not not changing.
-it would only update when you exit and re enter the app and it was not changing constantly.
-I realised that the  whole window would have to be updated after a some time. A very small time for the seconds component.Then i found out about the window.after() command . i tried 10 milliseconds initially with the function "update".Then i realized that thousand milliseconds make a second. So then i finaly fixed it to window.after(1000,update)
+ 
 
 
 
