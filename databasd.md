@@ -16,8 +16,8 @@ budget.
 
 ## Logical Flow
 
-buget input received -> stored as a value(float) into (amount_budg) 
-items added into expenses ( items stored as text and the price stored as numbers) in (Items_budg) and (Money_budg) respectively
-since it is a list, items can be added and removed
-Page 3 then displays the current budget which is sum(price_budg)- (amount_budg)
+### buget input received -> stored as a value(float) into (amount_budg) 
+#### items added into expenses ( items stored as text and the price stored as numbers) in (Items_budg) and (Money_budg) respectively
+##### since it is a list, items can be added and removed
+##### Page 3 then displays the current budget which is sum(price_budg)- (amount_budg)
 
